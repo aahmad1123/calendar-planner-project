@@ -61,3 +61,5 @@ timeSlot.each(function(){
 dateEl= $('#currentDay')
 today = dayjs()
 dateEl.text(today.format('MMM D, YYYY'));
+
+
