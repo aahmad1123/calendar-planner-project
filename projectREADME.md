@@ -3,3 +3,4 @@ In this project, I was given a daily calendar planner website with unfunctional 
 
 here is a screenshot of the deployed application: [!screenshot-of-project](/Assets/images/calendar-project-screenshot.png)
 here is a link to the deployed application: 
+https://aahmad1123.github.io/calendar-planner-project/
