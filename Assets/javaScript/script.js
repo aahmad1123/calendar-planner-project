@@ -44,11 +44,11 @@ $('#17 .description').val(localStorage.getItem('17'))
 
 timeSlot.each(function(){
   var timeBlock = $(this).attr("id")
-  if(hour.format("H") < timeBlock){
+  if(hour.format("H") > timeBlock){
     $(this).addClass("past");
   } else if(hour.format('H') == timeBlock){
       $(this).addClass("present");
-    }else if(hour.format('H') > timeBlock){
+    }else if(hour.format('H') < timeBlock){
       $(this).addClass("future");
     }
   
